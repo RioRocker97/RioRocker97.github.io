@@ -5,5 +5,6 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 h1{
-    font-size: 150%;
+    font-size: 100px;
+    color: azure;
 }
