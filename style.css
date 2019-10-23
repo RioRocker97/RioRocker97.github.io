@@ -3,8 +3,11 @@ html{
 }
 body{
     font-family: 'Kanit', sans-serif;
+    color: azure;
 }
 h1{
     font-size: 100px;
-    color: azure;
+}
+p{
+
 }
