@@ -43,48 +43,5 @@ html{
     background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg);
 }
 body{
-    font-family: Tahoma, 'Open san',sans-serif;
-}
-
-header h1{
-    margin-bottom: 0;
-}
-
-header h1+p{
-    margin-top: 0;
-}
-article header h2{
-    margin-bottom: 0;
-}
-article header p{
-    margin-top: 0;
-}
-
-footer.site-footer p {
-    border-top: 3px solid black;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    margin-top: 0;
-}
-
-.site-nav u1 {
-    margin-top: 30px;
-    margin-left: 0px;
-    padding: 0;
-}
-.site-nav li {
-    list-style: none;
-    float: left;
-    margin-right: 5px;
-}
-.site-nav a {
-    display: block;
-    text-decoration: none;
-    color: darkblue;
-    padding:  10px 20px;
-    border: 3px solid dimgray;
-}
-
-.site-nav a:hover{
-    background-color: aquamarine;
+    font-family: 'Kanit', sans-serif;
 }
