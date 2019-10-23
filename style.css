@@ -1,47 +1,9 @@
-.container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto 3px auto auto;
-    grid-template-areas:
-    "header header"
-    "line line"
-    "main sidebar"
-    "footer footer";
-    background-color: aliceblue;
-    opacity: 0.8;
-    max-width: 945px;
-    margin: auto;
-}
-.site-header{
-    grid-area: header;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.main-area{
-    grid-area: main;
-    padding-left: 40px;
-    padding-right: 20px;
-}
-.sidebar-area{
-    grid-area: sidebar;
-    padding-right: 40px;
-}
-.site-footer{
-    grid-area: footer;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.line{
-    grid-area: line;
-    border-top: 3px solid grey;
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-bottom: 3px solid grey;
-}
 html{
     background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg);
 }
 body{
     font-family: 'Kanit', sans-serif;
+}
+h1{
+    font-size: 150%;
 }
