@@ -7,12 +7,13 @@ h1{
 }
 body{
     color: azure;
-    display: grid;
-    grid-template-columns: max-content auto;
+    display: flex;
+    flex-flow: row;
 }
 .first{
-    grid-column: 1;
+    flex-grow: 1;
 }
 .second{
-    grid-column: 2;
+    color: black;
+    flex-grow: 2;
 }
