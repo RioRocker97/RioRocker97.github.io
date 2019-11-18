@@ -4,31 +4,26 @@ html{
     color: azure;
     background-attachment: fixed; /* This keep background image still*/
 }
-.page{
+body{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
-h1,p,ul{
+.header{
     grid-column: 1;
-    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
 }
-h1{
-    font-size: 3em;
-    margin: 5px;
-    text-align: center;
-}
-.test_link{
+.search_bar{
     grid-column: 2;
-    grid-row: 1/7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
-.test_img{
+#login{
     grid-column: 2;
-    grid-row: 7;
+    width: 30%;
 }
-.my_3d{
-    padding: 50px;
-    grid-column: 1/3;
-    grid-row: 8;
+#search{
+    color: black;
+    border: 3px red solid;
+    border-radius: 10px;
 }
-a:visited{color: orange;}
-a:hover{color: white;}
