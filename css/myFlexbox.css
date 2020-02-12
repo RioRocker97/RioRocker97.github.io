@@ -8,6 +8,22 @@ body{
     display: inline-flexbox;
     flex-direction: column;
 }
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center
+}
+.navbar li{
+    border: 1px black solid;
+    padding: 5px;
+}
+a{
+    color: wheat;
+}
+a:hover{
+    color: brown;
+}
 .main img{
     margin: 10px;
     width: 30%;
