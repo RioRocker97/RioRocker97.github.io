@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/sandbox_style.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/myFlexbox.css">
     <title>SandBox</title>
 </head>
 <body>
-    <div class="header">
-        <a href="my_template1.html">Nonsense</a>
-        <p>Marketplace</p>
-        <p>Motion</p>
-        <p>Awareness</p>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html">1. Main Page</a></li>
+            <li><a href="./about.html" id="flex1">2. Silly Page</a></li>
+            <li><a href="./my_template1.html">3. Somewhere Else</a></li>
+            <li><a href="http://flexboxgrid.com/">4. Flexbox Grid Resource</a></li>
+        </ul>
     </div>
-    <div class="search_bar">
-        <p id="search">Searching...</p>
-        <img id="login" src="img/neutral.gif" alt="steady face">
+    <h1>Yesssssssssssssss</h1>
+    <p> This is my another CSS trick</p>
+    <div class="main">
+        <img src="img/Geese.jpg">
+        <img src="img/me.jpg" alt="">
+    </div>
+    <div class="another">
+        <h1>Here is the bullshit article</h1>
+        <p>afasfasfafasfasfasfaffa</p>
+        <!-- Picture tag is very useful to manage big image loading managment-->
+        <picture>
+            <source media="(max-width: 900px)" srcset="img/me.jpg">
+            <source media="(max-width: 1200px)" srcset="img/Geese.jpg" >
+            <img src="img/goose2.jpg" alt="" style="width: 50%;"> 
+        </picture>
     </div>
 </body>
 </html>
