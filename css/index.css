@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+  }
+.my-nav{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 2em;
+}
+#content1{
+    background-color: seagreen;
+    height: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#content2{
+    background-color: sienna;
+    height: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#content3{
+    background-color: steelblue;
+    height: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#content4{
+    background-color: violet;
+    height: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#footer{
+    background-color: slategrey;
+    height: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
