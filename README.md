@@ -6,4 +6,5 @@ Hosting small Website project
 - V2 will be main branch for github page
 
 # Progrssion of V2
-- Got the initila structure 
+- Got the initial structure 
+- add simple content
