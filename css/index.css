@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Oswald&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -32,7 +33,15 @@ html {
 }
 #footer{
     background-color: slategrey;
-    height: 300px;
+    height: 200px;
     padding-left: 0px;
     padding-right: 0px;
+}
+.blog h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+.blog p{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 1.5em;
 }
