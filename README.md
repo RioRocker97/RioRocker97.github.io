@@ -8,3 +8,4 @@ Hosting small Website project
 # Progrssion of V2
 - Got the initial structure 
 - add simple content
+- add structure 1 - building block and gather resource for webpage

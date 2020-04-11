@@ -3,31 +3,60 @@ html {
     scroll-behavior: smooth;
   }
 .my-nav{
-    height: 100px;
+    height: 60px;
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 2em;
 }
+.nav-link img{
+    width: 80%;
+}
+/* Home content */
 #content1{
-    background-color: seagreen;
-    height: 600px;
+    background-image: url('../img/BG1.gif');
+    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
 }
+#content1 article{
+    padding: 3rem;
+}
+
+/* About */
 #content2{
-    background-color: sienna;
-    height: 600px;
+    background-color: #ADF5FF;
+    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/* Skill */
 #content3{
     background-color: steelblue;
-    height: 600px;
+    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
 }
+#content3 article{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#content3 .part1{
+    border: dotted 0.2rem gray;
+}
+#content3 .part2{
+    border: dotted 0.2rem gray;
+}
+
 #content4{
     background-color: violet;
-    height: 600px;
+    height: 800px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#content5{
+    background-color: royalblue;
+    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
 }
