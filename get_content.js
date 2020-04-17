@@ -1,4 +1,5 @@
-var content ={
+const getContent = fetch("./mycontent.txt");
+/*var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
     c2 : "Hello c2",
     c3 : "Hello c3",
@@ -20,3 +21,6 @@ con2.innerHTML+= content.c2;
 con3.innerHTML+= content.c3;
 con4.innerHTML+= content.c4;
 con5.innerHTML+= content.c5;
+
+*/
+console.log(getContent)
