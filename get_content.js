@@ -1,4 +1,4 @@
-const getContent = fetch("./mycontent.txt");
+const getContent = fetch("./mycontent.txt").then(Response => Response.text()).then(text);
 /*var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
     c2 : "Hello c2",
@@ -23,4 +23,4 @@ con4.innerHTML+= content.c4;
 con5.innerHTML+= content.c5;
 
 */
-console.log(getContent.then(Response => Response.text()))
+console.log(getContent)
