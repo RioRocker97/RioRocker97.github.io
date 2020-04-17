@@ -1,4 +1,4 @@
-const getContent = fetch("./mycontent.txt").then(Response => Response.text()).then(text => {return text;});
+const getContent = fetch("./mycontent.txt").then(Response => Response.text()).then(text => console.log(text));
 /*var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
     c2 : "Hello c2",
