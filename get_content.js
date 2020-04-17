@@ -23,4 +23,4 @@ con4.innerHTML+= content.c4;
 con5.innerHTML+= content.c5;
 
 */
-console.log(getContent)
+console.log(getContent.then(Response => Response.text()))
