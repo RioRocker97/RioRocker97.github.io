@@ -9,3 +9,4 @@ Hosting small Website project
 - Got the initial structure 
 - add simple content
 - add structure 1 - building block and gather resource for webpage
+- What a lazy day !!! (17/4/2020)
