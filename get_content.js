@@ -1,5 +1,5 @@
 var getcontent = ""
-fetch("content.txt").then(Response => Response.text()).then(text => getcontent = text);
+fetch("mycontent.txt").then(Response => Response.text()).then(text => getcontent = text);
 console.log(getcontent)
 var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
