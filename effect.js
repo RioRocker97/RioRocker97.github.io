@@ -1,14 +1,16 @@
 var mynav = document.getElementById("my-nav");
-window.onscroll = function(){dynamicNavbar()};
+document.addEventListener("scroll",function(){dynamicNavbar()})
+var lastscroll = 0
 function dynamicNavbar(){
-    if(window.pageYOffset >= 20){
-        mynav.style.backgroundColor = "rgba(255,196,196,1)" ;
-        mynav.style.transition = "transform 0.3s"
-        mynav.style.transform = "translate3d(0,-100%,0)"
-    }
-    else{
-        mynav.style.backgroundColor = "rgba(0, 0, 0, 0.2)" ;
+    let currentscroll = window.pageYOffset;
+    //console.log(lastscroll,currentscroll)
+    if(lastscroll > currentscroll || window.pageYOffset <= 100){
         mynav.style.transition = "transform 0.3s"
         mynav.style.transform = "translate3d(0,0,0)"
     }
+    else{
+        mynav.style.transition = "transform 0.3s"
+        mynav.style.transform = "translate3d(0,-100%,0)"
+    }
+    lastscroll = currentscroll
 }

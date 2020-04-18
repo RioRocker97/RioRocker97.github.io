@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Oswald&display=swap');
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity
 }
 body{
     position: relative;
@@ -28,15 +27,34 @@ body{
     padding-right: 0px;
 }
 #content1 article{
-    padding: 3rem;
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: minmax(1fr,max-content) max-content;
 }
+#content1 .part1{
+    grid-column: 1;
+}
+#content1 .part2{
+    text-align: center;
+    grid-column: 2;
+}
+#content1 .part2 img{
+    width: 45%; 
+    border-radius: 50%; 
+    border: 1px aliceblue solid ;
+    box-shadow: 0 0 0px none;
+    transition: box-shadow 0.5s;
+}
+#content1 .part2 img:hover{
+    box-shadow: 0 0 30px aqua;
+    transition: box-shadow 0.5s;
 
+}
 /* About */
 #content2{
     background-color: #ADF5FF;
     height: 800px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3rem
 }
 
 /* Skill */
@@ -61,20 +79,17 @@ body{
 #content4{
     background-color: violet;
     height: 800px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3rem
 }
 #content5{
     background-color: royalblue;
     height: 800px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3rem
 }
 #footer{
     background-color: slategrey;
     height: 200px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3rem
 }
 .blog h1{
     font-family: 'Oswald', sans-serif;
