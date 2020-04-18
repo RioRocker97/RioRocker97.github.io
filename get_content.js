@@ -1,4 +1,6 @@
-//getContent = fetch("https://github.com/RioRocker97/RioRocker97.github.io/blob/master/content.txt").then(Response => Response.text()).then(text => console.log(text));
+const getcontent = ""
+fetch("content.txt").then(Response => Response.text()).then(text => getcontent = text);
+console.log(getcontent)
 var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
     c2 : "Hello c2",
