@@ -1,5 +1,5 @@
 var getcontent = ""
-fetch("mycontent.txt").then(Response => Response.text()).then(text => getcontent = text);
+fetch("./mycontent.txt").then(Response => Response.text()).then(text => getcontent = text);
 console.log(getcontent)
 var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
@@ -20,7 +20,7 @@ con1.innerHTML+= content.c1.a;
 con1_2.innerHTML+= content.c1.b;
 
 con2.innerHTML+= content.c2;
-con3.innerHTML+= content.c3;
+//con3.innerHTML+= content.c3;
 con4.innerHTML+= content.c4;
 con5.innerHTML+= content.c5;
 
