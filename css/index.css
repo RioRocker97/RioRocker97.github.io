@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Oswald&display=swap');
 html {
     scroll-behavior: smooth;
-  }
-.my-nav{
+    scroll-snap-type: y proximity
+}
+body{
+    position: relative;
+}
+#my-nav{
+    scroll-snap-align: start;
+    position: fixed;
+    width: 100%;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 2em;
+}
+.my-nav:hover{
+    font-size: 2.5em;
 }
 .nav-link img{
     width: 80%;
