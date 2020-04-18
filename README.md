@@ -11,3 +11,4 @@ Hosting small Website project
 - add structure 1 - building block and gather resource for webpage
 - What a lazy day !!! (17/4/2020)
 - add effect 1 - smooth Navbar transition
+- building grid...
