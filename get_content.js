@@ -1,6 +1,7 @@
-var getcontent = ""
-fetch("./mycontent.txt").then(Response => Response.text()).then(text => getcontent = text);
-console.log(getcontent)
+
+var getcontent = new Request("./mycontent.txt");
+var content = fetch(getcontent).then(Response => Response.text()).then(text => text);
+console.log(content)
 var content ={
     c1 : {a : "Kasin Yamsri <Chang>",b:"I like to do computer stuff.<br>When i graduate, i wanna be a star !"},
     c2 : "Hello c2",
