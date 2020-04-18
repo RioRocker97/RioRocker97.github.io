@@ -1,4 +1,4 @@
-const getcontent = ""
+var getcontent = ""
 fetch("content.txt").then(Response => Response.text()).then(text => getcontent = text);
 console.log(getcontent)
 var content ={
@@ -12,7 +12,7 @@ const con1 = document.getElementById("c1");
 const con1_2 = document.getElementById("c1_2");
 
 const con2 = document.getElementById("c2");
-const con3 = document.getElementById("c3");
+//const con3 = document.getElementById("c3");
 const con4 = document.getElementById("c4");
 const con5 = document.getElementById("c5");
 
