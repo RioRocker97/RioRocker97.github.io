@@ -6,15 +6,16 @@ body{
     position: relative;
 }
 #my-nav{
+    display: inline-flex;
     scroll-snap-align: start;
     position: fixed;
     width: 100%;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.2);
-    font-size: 2em;
+    font-size: 2vmax;
 }
-.my-nav:hover{
-    font-size: 2.5em;
+#my-nav:hover{
+    font-size: 2.2vmax;
 }
 .nav-link img{
     width: 80%;
@@ -33,10 +34,16 @@ body{
 }
 #content1 .part1{
     grid-column: 1;
+    animation-name: effect1;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
 }
 #content1 .part2{
     text-align: center;
     grid-column: 2;
+    animation-name: effect1;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
 }
 #content1 .part2 img{
     width: 45%; 
@@ -91,11 +98,17 @@ body{
     height: 200px;
     padding: 3rem
 }
-.blog h1{
+h1{
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
 }
-.blog p{
+p{
     font-family: 'Baloo Paaji 2', cursive;
     font-size: 1.5em;
+}
+
+/* Animation here */
+@keyframes effect1{
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
 }

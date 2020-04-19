@@ -14,3 +14,4 @@ function dynamicNavbar(){
     }
     lastscroll = currentscroll
 }
+console.log(window.innerWidth);
